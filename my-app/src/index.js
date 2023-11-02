@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Hello from "./Hello";
+// import AppClass from "./AppClass";
+import App from "./App"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,7 +11,7 @@ root.render(
           <div className="row">
               <div className="col">
 
-                  <Hello msg="hi"/>
+                  <App msg="hi, state using functional component"/>
               </div>
           </div>
       </div>
