@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppClass from "./AppClass";
 import Hello from "./Hello";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,8 +9,8 @@ root.render(
       <div className="container">
           <div className="row">
               <div className="col">
-                  <AppClass msg="Hello"/>
-                  <Hello />
+
+                  <Hello msg="hi"/>
               </div>
           </div>
       </div>
